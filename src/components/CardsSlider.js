@@ -2,7 +2,7 @@
 import { FaArrowLeft, FaArrowRight, FaHeart, FaStar } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 
-function SCardsR() {
+function CardsSlider() {
   const [products, setProducts] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -107,4 +107,4 @@ function SCardsR() {
   );
 }
 
-export default SCardsR;
+export default CardsSlider;

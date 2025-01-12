@@ -235,7 +235,7 @@ function App() {
         </div>
       </div>
 
-            <CardsSlider />
+      <CardsSlider />
       <SHero />
       <SCardsR />
       

@@ -10,7 +10,7 @@ function SCardsR() {
   useEffect(() => {
     const fetchProducts = async () => {
       const response = await fetch(
-        "https://makeup-api.herokuapp.com/api/v1/products.json?product_type=nail_polish"
+        "http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline"
       );
       const data = await response.json();
       setProducts(data);

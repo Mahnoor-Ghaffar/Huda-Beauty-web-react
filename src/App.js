@@ -139,6 +139,7 @@ import TextSection from './components/TextSec';
 import { FaArrowLeft, FaArrowRight, FaHeart, FaStar } from "react-icons/fa";
 import SHero from "./components/SHero";
 import SCardsR from "./components/SCardsR";
+import CardsSlider from './components/CardsSlider';
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -234,6 +235,7 @@ function App() {
         </div>
       </div>
 
+            <CardsSlider />
       <SHero />
       <SCardsR />
       

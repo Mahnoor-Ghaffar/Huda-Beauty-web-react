@@ -32,7 +32,7 @@ const Navbar = () => {
               </span>
             </span>
             {isDropdownOpen && (
-              <ul className="absolute top-full left-0 mt-2 bg-black
+              <ul className="absolute top-full left-0 mt-2 bg-white
               
               
                shadow-md rounded-md w-48">
